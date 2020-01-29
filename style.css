@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.progress {
+    background-color: lightgray;
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 0px;
+    opacity: 0;
+    color: #ffffff;
+    background: linear-gradient(to left, #F2709C, #ff2233);
+    box-shadow: 0px 3px 3px -5px  #F2709C, 0px 2px 2px  #F2709C;
+    border-radius: 50px;
+    transition: 1s ease 0.5s;
+}
